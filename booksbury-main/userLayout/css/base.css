@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+:root{
+    --primary-color: #00575C;
+    --secondary-color: #FFB800;
+    --text-content: #666666;
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+}
+
+html{
+    line-height: 1.6rem;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.grid__full-width{
+    width: 100%;
+    margin: 0 auto;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid{
+    width: 1240px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* Button */
+.btn-product{
+    max-width: 170px;
+}
+/* Animation */
+
+
+
