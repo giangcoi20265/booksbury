@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style-admin.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap">
+</head>
+
+<body>
+    <div class="admin">
+        <header>
+            <div class="header-top">
+                <p>Hệ thống quản trị Booksbury</p>
+            </div>
+            <nav class="menu-control">
+                <div class="menu-control__header">
+                    <img src="../userLayout/Logo.png" alt="" class="logo">
+                    <button class="icon-control"><i class="fa-solid fa-angles-left"></i></button>
+                </div>
+                <div class="info-users">
+                    <div class="info-users-avatar"><img src="../imgs/IMG_9515.jpg" alt=""></div>
+                    <div class="info-users-name">
+                        <p class="info-users-name-account">Lưu Đình Hạnh <span>(admin)</span></p>
+                        <p class="info-users-name-gmail">luuhanh0201@gmail.com</p>
+                    </div>
+                </div>
+                <ul class="list-menu-control">
+                    <li class="menu-control-items"><span>BẢNG ĐIỀU KHIỂN</span></li>
+                    <li class="menu-control-items"><a href="index.php?act=users" class="menu-item-link"><i
+                                class="icon-controls fa-solid fa-user"></i><span>Quản lý người dùng</span></a></li>
+                    <li class="menu-control-items"><a href="index.php?act=category" class="menu-item-link"><i
+                                class="icon-controls fa-solid fa-list"></i><span>Quản lý danh mục</span></a></li>
+                    <li class="menu-control-items"><a href="index.php?act=author" class="menu-item-link"><i
+                                class="icon-controls fa-solid fa-user-pen"></i><span>Tác giả</span></a></li>
+                    <li class="menu-control-items"><a href="index.php?act=publish" class="menu-item-link"><i
+                                class="icon-controls fa-solid fa-book-atlas"></i></i><span>Nhà xuất bản</span></a></li>
+                    <li class="menu-control-items"><a href="index.php?act=books" class="menu-item-link"><i
+                                class="icon-controls fa-solid fa-book"></i><span>Sách</span></a></li>
+                    <li class="menu-control-items"><a href="index.php?act=voucher" class="menu-item-link"><i
+                                class="icon-controls fa-solid fa-gift"></i><span>Mã giảm giá</span></a></li>
+                </ul>
+                <ul class="list-menu-control">
+                    <li class="menu-control-items"><span>ĐƠN HÀNG</span></li>
+                    <li class="menu-control-items"><a href="index.php?act=users" class="menu-item-link"><i
+                                class="icon-controls fa-solid fa-file-invoice-dollar"></i>Quản lý đơn hàng</a> </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <form class="" action="index.php?act=addCategory" method="post">
+                <div class="container__title">
+                    <h1>Thêm mới danh mục</h1>
+
+                </div>
+                <div class="block-type">
+                    <label for="" class="form-label">Id loại</label><br>
+                    <input type="text" name="" id="" class="form-control" disabled placeholder="ID điền tự động">
+                </div>
+                <div class="block-type">
+                    <label for="" class="form-label">Danh mục</label><br>
+                    <input type="text" name="" id="" class="form-control"  placeholder="Tên danh mục">
+                </div>
+                <div class="block-type">
+                    <label for="" class="form-label">Id loại</label><br>
+                    <input type="text" name="" id="" class="form-control" disabled placeholder="ID điền tự động">
+                </div>
+            </form>
+        </div>
+
+        
+        
+        
+    </div>
+    <footer>
+        <p>Trang web quản lý bán sách hàng đầu </p>
+        <h1>test</h1>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --height-header: 40px;
+    --primary-color: #00575C;
+    --secondary-color: #FFB800;
+    --text-content: #666666;
+    --color-white: #fff;
+    --color-black: #000;
+}
+.admin{
+    display: flex;
+}
+
+.header-top {
+    height: var(--height-header);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.header-top p {
+    font-size: 1.6rem;
+    line-height: 40px;
+    color: var(--color-white);
+}
+
+.info-users {
+    display: flex;
+    margin-top: 6px;
+    margin-left: 12px;
+    align-items: center;
+}
+.info-users-name-account{
+    color: #EBECEC;
+    margin-left: 24px;
+    font-size: 1.6rem;
+    font-style: bold;
+    font-weight: 600;
+}
+.info-users-name-gmail{
+    color: #ebecec6a;
+    margin-left: 24px;
+    font-size: 1.3rem;
+    margin-top: 8px;
+}
+.info-users-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+
+
+    cursor: pointer;
+}
+
+.info-users-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-image: fill;
+}
+
+.menu-control {
+    width: 400px;
+    max-width: 100%;
+    background-color: #414E67;
+    min-height: 90vh ;
+}
+
+.menu-control__header {
+    height: 50px;
+    background-color: #EBECEC;
+    text-align: center;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+
+}
+
+.menu-control__header img {
+    height: 100%;
+
+}
+
+.icon-control {
+    float: right;
+    line-height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    margin-right: 12px;
+    cursor: pointer;
+
+}
+
+.list-menu-control {}
+
+.menu-control-items {
+    margin: 0 12px;
+    list-style: none;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.menu-control-items:hover {}
+
+.menu-control-items:first-child {
+    font-style: bold;
+    color: #EBECEC;
+    font-size: 1.8rem;
+    padding: 12px;
+    border-top: 1px solid rgba(204, 204, 204, 0.3);
+    margin-top: 6px;
+}
+
+.menu-item-link {
+    display: block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #EBECEC;
+    transition: 0.3s;
+}
+
+.menu-item-link:hover {
+
+    background-color: #EBECEC;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    color: #000;
+}
+
+.icon-controls {
+    padding: 12px;
+}
+.container{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.container__title{
+    height: var(--height-header);
+    text-align: center;
+    background-image: linear-gradient(var(--primary-color));
+    background-color: var(--secondary-color);
+    justify-content: space-between;
+    line-height: var(--height-header);
+}
+
+
+
+
+
+
+footer {
+    height: 40px;
+    text-align: center;
+    background-color: (var(--primary-color),var(--secondary-color));
+}
+
+footer p {
+    font-size: 1.6rem;
+    color: white;
+    line-height: 40px;
+    
+
+}
