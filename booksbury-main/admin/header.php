@@ -45,10 +45,10 @@
                                 class="icon-controls fa-solid fa-gift"></i><span>Mã giảm giá</span></a></li>
                 </ul>
                 <ul class="list-menu-control">
-                    <li class="menu-control-items"><span>ĐƠN HÀNG</span></li>
-                    <li class="menu-control-items"><a href="index.php?act=users.php" class="menu-item-link"><i
-                                class="icon-controls fa-solid fa-file-invoice-dollar"></i>Quản lý đơn hàng</a> </li>
+                    
 
+
+                
                 </ul>
             </nav>
         </header>
